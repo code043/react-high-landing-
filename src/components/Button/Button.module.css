@@ -1,0 +1,28 @@
+button {
+  cursor: pointer;
+}
+.login {
+  width: 91px;
+  height: 52px;
+  font-size: 18px;
+  padding: 14px 20px;
+  color: #151515;
+  background-color: #fff;
+  border: none;
+}
+.signup {
+  width: 112px;
+  height: 52px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #151515;
+  border: none;
+}
+.hero-button {
+  width: 144px;
+  height: 52px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #151515;
+  border: none;
+}
