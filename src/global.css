@@ -48,3 +48,6 @@ body {
   word-wrap: break-word;
   /* background-color: blue; */
 }
+.about-section {
+  display: flex;
+}

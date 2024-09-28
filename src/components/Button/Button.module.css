@@ -26,3 +26,9 @@ button {
   background-color: #151515;
   border: none;
 }
+.about-btn {
+  width: 115px;
+  height: 38px;
+  font-size: 14px;
+  color: #151515;
+}

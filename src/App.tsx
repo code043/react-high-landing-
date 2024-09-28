@@ -1,6 +1,8 @@
+import Button from "./components/Button/Button";
 import Form from "./components/Form/Form";
 import Heading from "./components/Heading/Heading";
 import Image from "./components/Image/Image";
+import AboutList from "./components/List/AboutList";
 import MainHeader from "./components/MainHeader/MainHeader";
 import "./global.css";
 
@@ -25,6 +27,22 @@ function App() {
         </div>
         <div>
           <Image styleImg="hero-image" src="./images/Group.png" alt={""} />
+        </div>
+      </section>
+      <section className="about-section">
+        <Image styleImg="" src="./images/Illustration.png" alt="image" />
+        <div>
+          <Button styleBtn="about-btn" text="About us" />
+          <Heading styleTitle={""} titleColor={""}>
+            Faster, friendlier feedback loops make life easier.{" "}
+          </Heading>
+          <p>
+            Add a Viewer to your team so they can see everything you share, or
+            invite people to individual documents. It’s up to you. Stakeholders
+            can check out designs in their web browser, test prototypes and
+            leave feedback for free.
+          </p>
+          <AboutList styleList="" />
         </div>
       </section>
     </div>
