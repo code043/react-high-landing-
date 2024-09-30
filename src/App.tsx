@@ -45,6 +45,7 @@ function App() {
           <AboutList styleList="" />
         </div>
       </section>
+      <section className="how-works-section"></section>
     </div>
   );
 }
