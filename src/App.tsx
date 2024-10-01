@@ -48,49 +48,103 @@ function App() {
       </section>
       <section className="how-works-section">
         <div>
-          <Button styleBtn="btn-02" text="How it Works"></Button>
+          <Button styleBtn="btn-02" text="HOW IT WORKS"></Button>
           <Heading styleTitle={""} titleColor={""}>
-            Titulo
+            Building the best space for collaboration.
           </Heading>
-          <div>
-            <Image styleImg={""} src="" alt="" />
+          <div style={{ display: "flex" }}>
+            <Image styleImg={""} src="./images/icon.png" alt="" />
             <div>
               <Heading styleTitle={""} titleColor={""}>
-                Shared Clould
+                Shared Cloud Libraries
               </Heading>
-              <p></p>
+              <p>
+                Navigate to the Your work panel in the left sidebar. Select the
+                library you want to share. Select the Share icon in the upper
+                right to share the library.
+              </p>
+            </div>
+          </div>
+          <div style={{ display: "flex" }}>
+            <Image styleImg={""} src="./images/icon_2.png" alt="" />
+            <div>
+              <Heading styleTitle={""} titleColor={""}>
+                Free developer handoff, right inside
+              </Heading>
+              <p>
+                Cloud Inspector makes it easy for developers to get the
+                information they need to turn pixels into code — all in the
+                browser and, most importantly, for free.
+              </p>
+            </div>
+          </div>
+          <div style={{ display: "flex" }}>
+            <Image styleImg={""} src="./images/icon_3.png" alt="" />
+            <div>
+              <Heading styleTitle={""} titleColor={""}>
+                Real-time collaborative editing
+              </Heading>
+              <p>
+                Room Service helps you build real-time collaborative features.
+                Add real-time data sync! Let users edit the same data at the
+                same time.
+              </p>
+            </div>
+          </div>
+          <div style={{ display: "flex" }}>
+            <Image styleImg={""} src="./images/icon_4.png" alt="" />
+            <div>
+              <Heading styleTitle={""} titleColor={""}>
+                Integrations with the Cloud API
+              </Heading>
+              <p>
+                Unlocking that value requires an iPaaS that delivers the
+                transformative power of APIs and integration.
+              </p>
             </div>
           </div>
         </div>
         <Image styleImg={""} src="./images/Illustration_3.png" alt={""} />
       </section>
       <section className="price-section">
-        <div>
-          <Image styleImg={""} src={""} alt={""} />
+        <div style={{ display: "flex" }}>
+          <Image styleImg={""} src="./images/Illustration_4.png" alt={""} />
           <div className="title-price">
             <Button styleBtn="btn-02" text="pricing" />
             <Heading styleTitle={""} titleColor={""}>
-              Titulo price
+              Select a membership level the right price for you.
             </Heading>
-            <p>Paragrafo</p>
+            <p>
+              Prices listed in USD. Taxes may apply. By using program you agree
+              to our terms and policies.
+            </p>
           </div>
         </div>
-        <div className="price-table">prices</div>
+        <div className="price-table">prices section</div>
       </section>
       <section className="question-section">
         <div className="questions">
-          <Button styleBtn="btn-02" text="" />
+          <Button styleBtn="btn-02" text="FAQS" />
           <Heading styleTitle={""} titleColor={""}>
-            Question
+            Common Questions
           </Heading>
-          <p>Paragrafo</p>
+          <p>
+            The online form also provides links to a set of frequently asked
+            questions, other information materials related to the financial
+            disclosure programme.
+          </p>
           <Heading styleTitle={""} titleColor={""}>
-            Sub title
+            How much does a Teams subscription cost?
           </Heading>
-          <p>Paragrafo</p>
-          Todo List Component
+          <p>
+            Contributors are members of your team who need access to use the Mac
+            app to create and edit Sketch documents. These prices don’t include
+            sales tax, which may still apply. Head over to our pricing page to
+            get full details.
+          </p>
+          Accordion List Component
         </div>
-        <Image styleImg={""} src="./images/Illustration_4.png" alt={""} />
+        <Image styleImg={""} src="./images/Illustration_5.png" alt={""} />
       </section>
       <Footer styleFooter={""}>
         <h1>Footer</h1>

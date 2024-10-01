@@ -27,8 +27,9 @@ button {
   border: none;
 }
 .btn-02 {
-  width: 115px;
-  height: 38px;
+  /* width: 115px;
+  height: 38px; */
+  padding: 6px 20px;
   font-size: 14px;
   color: #151515;
 }

@@ -48,6 +48,9 @@ body {
   word-wrap: break-word;
   /* background-color: blue; */
 }
-.about-section {
+
+.about-section,
+.how-works-section,
+.question-section {
   display: flex;
 }
