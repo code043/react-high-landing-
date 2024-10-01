@@ -1,4 +1,4 @@
-import styles from "./List.module.css";
+import List from "./List";
 
 const items = [
   {
@@ -10,11 +10,11 @@ const items = [
 ];
 const AboutList = ({ styleList }: { styleList: string }) => {
   return (
-    <ul style={{ margin: "20px" }} className={styles[styleList]}>
-      {items.map((d, i) => {
-        return <li key={i}>{d.content}</li>;
-      })}
-    </ul>
+    <List
+      styleList={styleList}
+      items={items}
+      renderItem={(item) => <div>{item.content}</div>}
+    />
   );
 };
 
