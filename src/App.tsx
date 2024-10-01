@@ -1,4 +1,5 @@
 import Button from "./components/Button/Button";
+import Footer from "./components/Footer/Footer";
 import Form from "./components/Form/Form";
 import Heading from "./components/Heading/Heading";
 import Image from "./components/Image/Image";
@@ -32,7 +33,7 @@ function App() {
       <section className="about-section">
         <Image styleImg="" src="./images/Illustration.png" alt="image" />
         <div>
-          <Button styleBtn="about-btn" text="About us" />
+          <Button styleBtn="btn-02" text="About us" />
           <Heading styleTitle={""} titleColor={""}>
             Faster, friendlier feedback loops make life easier.{" "}
           </Heading>
@@ -42,10 +43,58 @@ function App() {
             can check out designs in their web browser, test prototypes and
             leave feedback for free.
           </p>
-          <AboutList styleList="" />
+          <AboutList styleList="about-list" />
         </div>
       </section>
-      <section className="how-works-section"></section>
+      <section className="how-works-section">
+        <div>
+          <Button styleBtn="btn-02" text="How it Works"></Button>
+          <Heading styleTitle={""} titleColor={""}>
+            Titulo
+          </Heading>
+          <div>
+            <Image styleImg={""} src="" alt="" />
+            <div>
+              <Heading styleTitle={""} titleColor={""}>
+                Shared Clould
+              </Heading>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <Image styleImg={""} src="./images/Illustration_3.png" alt={""} />
+      </section>
+      <section className="price-section">
+        <div>
+          <Image styleImg={""} src={""} alt={""} />
+          <div className="title-price">
+            <Button styleBtn="btn-02" text="pricing" />
+            <Heading styleTitle={""} titleColor={""}>
+              Titulo price
+            </Heading>
+            <p>Paragrafo</p>
+          </div>
+        </div>
+        <div className="price-table">prices</div>
+      </section>
+      <section className="question-section">
+        <div className="questions">
+          <Button styleBtn="btn-02" text="" />
+          <Heading styleTitle={""} titleColor={""}>
+            Question
+          </Heading>
+          <p>Paragrafo</p>
+          <Heading styleTitle={""} titleColor={""}>
+            Sub title
+          </Heading>
+          <p>Paragrafo</p>
+          Todo List Component
+        </div>
+        <Image styleImg={""} src="./images/Illustration_4.png" alt={""} />
+      </section>
+      <Footer styleFooter={""}>
+        <h1>Footer</h1>
+      </Footer>
     </div>
   );
 }

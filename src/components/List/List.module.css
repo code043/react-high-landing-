@@ -5,3 +5,6 @@
   font-family: "Neue Machina";
   font-weight: 500;
 }
+.about-list {
+  list-style: square;
+}
