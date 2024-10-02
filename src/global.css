@@ -6,16 +6,25 @@
 }
 body {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  /* align-content: center; */
+  flex-direction: column;
   font-family: "Oxygen", sans-serif;
   font-weight: 200;
   font-style: normal;
   background-color: #e2e2e2;
 }
 .container {
+  display: flex;
+  justify-content: center;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  /* align-self: center; */
   padding-top: 32px;
   width: 1512px;
-  /* background-color: blueviolet; */
+  background-color: blueviolet;
 }
 .menu {
   display: flex;
@@ -53,4 +62,11 @@ body {
 .how-works-section,
 .question-section {
   display: flex;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* background-color: chocolate; */
+  width: 1512px;
 }
